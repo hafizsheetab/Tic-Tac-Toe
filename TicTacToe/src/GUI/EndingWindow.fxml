@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EndingWindowController">
+   <children>
+      <Text layoutX="156.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The End" wrappingWidth="288.6708984375">
+         <font>
+            <Font size="75.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

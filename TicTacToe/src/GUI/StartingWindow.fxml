@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.StartingWindowController">
+   <children>
+      <Button fx:id="randomAI" layoutX="201.0" layoutY="66.0" mnemonicParsing="false" onAction="#onActionStart" prefHeight="96.0" prefWidth="199.0" text="RandomAi">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="defensiveAI" layoutX="201.0" layoutY="229.0" mnemonicParsing="false" onAction="#onActionStart2" prefHeight="96.0" prefWidth="199.0" text="DefensiveAi">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

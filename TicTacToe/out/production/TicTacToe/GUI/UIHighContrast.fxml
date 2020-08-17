@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: darkGrey;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.UIHighContrastController">
+   <children>
+      <Button fx:id="box22" layoutX="164.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#box22OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="box11" layoutX="93.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#box11OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box12" layoutX="164.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#box12OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box13" layoutX="240.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#box13OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box23" layoutX="240.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#box23OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box21" layoutX="93.0" layoutY="169.0" mnemonicParsing="false" onMouseClicked="#box21OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box31" layoutX="93.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#box31OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box32" layoutX="164.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#box32OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="box33" layoutX="240.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#box33OnMouseClick" prefHeight="62.0" prefWidth="67.0" style="-fx-background-color: darkGrey;" text=" " wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button ellipsisString="" layoutX="401.0" layoutY="43.0" mnemonicParsing="false" onAction="#classicOnAction" prefHeight="31.0" prefWidth="28.0" text="Button" />
+      <Button ellipsisString="" layoutX="401.0" layoutY="113.0" mnemonicParsing="false" onAction="#forestOnAction" prefHeight="31.0" prefWidth="28.0" text="Button" />
+      <Button ellipsisString="" layoutX="401.0" layoutY="185.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="28.0" text="Button" />
+      <Text layoutX="440.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classic" />
+      <Text layoutX="441.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="High Contrast" />
+      <Text layoutX="443.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forest" />
+      <Line endX="100.0" layoutX="237.0" layoutY="200.0" rotate="90.0" startX="-100.0" stroke="#685a5a" strokeWidth="5.0" style="-fx-fill: black;" />
+      <Line endX="100.0" layoutX="160.0" layoutY="200.0" rotate="90.0" startX="-100.0" stroke="#685a5a" strokeWidth="5.0" style="-fx-fill: black;" />
+      <Line endX="100.0" layoutX="197.0" layoutY="236.0" startX="-100.0" stroke="#685a5a" strokeWidth="5.0" style="-fx-fill: black;" />
+      <Line endX="100.0" layoutX="197.0" layoutY="161.0" startX="-100.0" stroke="#685a5a" strokeWidth="5.0" style="-fx-fill: black;" />
+   </children>
+</AnchorPane>
